@@ -1,0 +1,26 @@
+body {
+    background: rgb(0,28,36);
+    background: -moz-linear-gradient(17deg, rgba(0,28,36,1) 0%, rgba(0,104,125,1) 100%);
+    background: -webkit-linear-gradient(17deg, rgba(0,28,36,1) 0%, rgba(0,104,125,1) 100%);
+    background: linear-gradient(17deg, rgba(0,28,36,1) 0%, rgba(0,104,125,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001c24",endColorstr="#00687d",GradientType=1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#clock {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+*, html, body {
+  box-sizing: border-box;
+}
+
+body {
+  background: #001c24;
+  background: -moz-linear-gradient(17deg, #001c24 0%, #00687d 100%);
+  background: -webkit-linear-gradient(17deg, #001c24 0%, #00687d 100%);
+  background: linear-gradient(17deg, #001c24 0%, #00687d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001c24",endColorstr="#00687d",GradientType=1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#clock {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#clock {
+  font-size: 30px;
+}
+@media screen and (min-width: 320px) {
+  #clock {
+    font-size: calc(30px + 98 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  #clock {
+    font-size: 128px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
