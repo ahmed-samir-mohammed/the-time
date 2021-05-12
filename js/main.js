@@ -1,7 +1,7 @@
 const clockElement = document.getElementById("clock");
 
-const currentTime = () => {
+const setCurrentTime = () => {
   clockElement.innerText = new Date().toLocaleTimeString();
 };
 
-setInterval(currentTime, 1000);
+setInterval(setCurrentTime, 1000);
